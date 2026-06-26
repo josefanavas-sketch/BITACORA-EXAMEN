@@ -34,7 +34,8 @@ La imagen base utilizada para el entorno del laberinto fue co-creada con la herr
 ![Referencia 2 para Gemini](imagen.6.png)
 
 * **Ilustración de Piglet (Estado 2):**
-![Transición Óptica - Piglet](imagen.3.jpg)[imagen de la serie animada]
+![Transición Óptica - Piglet](imagen.3.jpg)
+[imagen de la serie animada]
 
 * **Fondo de Winnie de Pooh (Estado 3):**
 ![Grilla Interactiva - Pooh](imagen.4.png)[imagen descargada de Pinterest]
