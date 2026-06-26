@@ -29,7 +29,6 @@ Asimismo, bajo criterios de diseño de interfaz, **en las páginas 1 y 2 se inco
 La imagen base utilizada para el entorno del laberinto fue co-creada con la herramienta de Inteligencia Artificial **Gemini**, utilizando dos imágenes de referencia para guiar su composición. En un costado del lienzo se conserva la marca de agua original de Gemini; se decidió mantener este elemento de manera explícita con el fin de reconocer y validar el uso de la IA como un asistente técnico y creativo válido dentro del proceso de desarrollo.
 ![Mapa del Laberinto Activo](imagen.2.png)[generado con Gemini]
 
-* **Referencias de Cocreación para el Laberinto:**
 
 * 
 ![Referencia 1 para Gemini](imagen.5.jpg)
