@@ -30,8 +30,8 @@ La imagen base utilizada para el entorno del laberinto fue co-creada con la herr
 ![Mapa del Laberinto Activo](imagen.2.png)[generado con Gemini]
 
 * **Referencias de Cocreación para el Laberinto:**
-![Referencia 1 para Gemini](referencia_gemini1.png)
-![Referencia 2 para Gemini](referencia_gemini2.png)
+![Referencia 1 para Gemini](imagen.png)
+![Referencia 2 para Gemini](imagen.6.png)
 
 * **Ilustración de Piglet (Estado 2):**
 ![Transición Óptica - Piglet](imagen.3.)[imagen de la serie animada]
