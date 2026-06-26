@@ -75,3 +75,19 @@ La imagen base utilizada para el entorno del laberinto fue co-creada con la herr
 
 ##  El Vínculo de Control: `mousePressed()`
 La transición secuencial que permite avanzar a través de estas páginas con movimientos independientes está completamente supeditada a la voluntad del espectador. Mediante la función `mousePressed()`, el sistema evalúa la intención del usuario para cambiar de un estado a otro, demostrando que **el software requiere de la acción humana para completarse y cobrar sentido.**.
+
+
+---
+
+## 📐 Arquitectura Lógica y Mapa de Navegación
+
+Para comprender la estructura del software y cómo interactúan las variables lógicas con las entradas del usuario, se desarrolló un **Diagrama de Arquitectura Lógica e Interacción Simplificado**. Este modelo técnico detalla el ciclo de vida del programa desde la carga asíncrona de recursos en la memoria RAM (`preload()`) hasta la ejecución condicional de las funciones matemáticas internas de cada escena.
+
+![Diagrama de Flujo](DiagramaFlujo.pdf)
+
+### Codificación Visual (Formas y Colores):
+Con el objetivo de facilitar la lectura técnica del mapa de navegación, el diagrama implementa una **lectura de abstracción geométrica y cromática** que clasifica cada instrucción del sistema:
+* **Óvalos (Azul y Rosa):** Demarcan los límites absolutos del programa, estableciendo con claridad el punto de inicio del sistema y el fin de la simulación.
+* **Rectángulos Verdes:** Representan los diferentes **Estados del Programa** (Estado 0, 1, 2 y 3). Indican los momentos exactos en que el software renderiza una nueva escena gráfica en la pantalla.
+* **Rombos Amarillos:** Identifican los **Eventos Condicionales** (como la validación del paso de fotogramas, la detección de pulsaciones de teclado o los clics del mouse). Son los puntos de decisión del comportamiento del código.
+* **Cajas Grises:** Señalan las **Operaciones Matemáticas Internas** y algoritmos de procesamiento lógico.
