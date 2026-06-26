@@ -79,10 +79,6 @@ La transición secuencial que permite avanzar a través de estas páginas con mo
 
 ---
 
-## 📐 Arquitectura Lógica y Mapa de Navegación
-
-Para comprender la estructura del software y cómo interactúan las variables lógicas con las entradas del usuario, se desarrolló un **Diagrama de Arquitectura Lógica e Interacción Simplificado**. Este modelo técnico detalla el ciclo de vida del programa desde la carga asíncrona de recursos en la memoria RAM (`preload()`) hasta la ejecución condicional de las funciones matemáticas internas de cada escena.
-
 ![Diagrama de Flujo](DiagramaFlujo.pdf)
 
 ### Codificación Visual (Formas y Colores):
