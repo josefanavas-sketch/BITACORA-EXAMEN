@@ -1,0 +1,64 @@
+## 🎨 Fundamento de Diseño y Concepto de Interacción
+
+La propuesta estética y el lenguaje visual de este proyecto están directamente inspirados en el universo de la serie animada **Winnie de Pooh**[cite: 1]. Bajo la premisa de evocar una atmósfera infantil, lúdica y nostálgica, el software se articula como un entorno dinámico enfocado en la **interactividad obligatoria entre el usuario y el programa**[cite: 1]. 
+
+Alineado con esta narrativa infantil, el sistema no funciona como una animación lineal o estática, sino como una experiencia modular dividida en **4 páginas autónomas**[cite: 1]. Cada escena posee motivos de movimiento independientes y mecánicas particulares, donde el código reacciona de forma única a los estímulos del espectador a través del hardware o de cálculos geométricos en tiempo real[cite: 1].
+
+Para reforzar la identidad visual del proyecto, **las ilustraciones base fueron aplicadas directamente mediante el comando de fondo (`background`)**[cite: 1]. Esta decisión técnica se tomó con el objetivo de estructurar una puesta en escena limpia y de alta fidelidad que permitiera al usuario asimilar y comprender con mayor facilidad el concepto animado y lúdico de la experiencia en cada transición[cite: 1].
+
+Asimismo, bajo criterios de diseño de interfaz, **en las páginas 1 y 2 se incorporó una figura base semitransparente detrás de los textos**. Esta capa geométrica actúa como un contenedor de alto contraste que asegura la legibilidad de las instrucciones, impidiendo que los caracteres tipográficos se pierdan o confundan con las texturas y tonalidades de las ilustraciones de fondo, guiando así la navegación del usuario con total claridad.
+
+---
+
+## 🖼️ Imágenes Utilizadas en el Desarrollo del Programa
+
+*(Para que las imágenes se desplieguen correctamente en esta sección, recuerda subirlas a tu repositorio con los mismos nombres que pongas dentro de los paréntesis)*[cite: 1]
+
+### Escenografía y Referentes Visuales:
+* **Fondo del Bosque (Estado 0):**[cite: 1]
+![Pantalla de Bienvenida - Bosque](imagen.1.jpg)[cite: 1]
+
+* **Interfaz del Laberinto (Estado 1):**[cite: 1]
+La imagen base utilizada para el entorno del laberinto fue co-creada con la herramienta de Inteligencia Artificial **Gemini**, utilizando dos imágenes de referencia para guiar su composición. En un costado del lienzo se conserva la marca de agua original de Gemini; se decidió mantener este elemento de manera explícita con el fin de reconocer y validar el uso de la IA como un asistente técnico y creativo válido dentro del proceso de desarrollo.
+![Mapa del Laberinto Activo](imagen.2.png)[cite: 1]
+
+* **Referencias de Cocreación para el Laberinto:**
+![Referencia 1 para Gemini](referencia_gemini1.png)
+![Referencia 2 para Gemini](referencia_gemini2.png)
+
+* **Ilustración de Piglet (Estado 2):**[cite: 1]
+![Transición Óptica - Piglet](imagen.3.)[cite: 1]
+
+* **Fondo de Winnie de Pooh (Estado 3):**[cite: 1]
+![Grilla Interactiva - Pooh](imagen.4.png)[cite: 1]
+
+---
+
+## 🕹️ Estructura de Páginas y Comandos Principales
+
+A continuación se sintetiza el funcionamiento interactivo de cada etapa del programa y los comandos técnicos fundamentales utilizados en su programación:[cite: 1]
+
+### 🟢 Página 1: Pantalla de Bienvenida (Estado 0)
+* **Concepto:** Introducción al entorno lúdico del bosque con el vuelo autónomo de una abeja[cite: 1].
+* **Interacción:** Movimiento azaroso automatizado que simula vida independiente mediante un freno de fotogramas[cite: 1]. Legibilidad optimizada mediante caja contenedora semitransparente.
+* **Comandos Clave:** `background()`, `fill()` con canal Alfa (opacidad), `rect()`, `random()`, `frameCount`, `text()`[cite: 1].
+
+### 🟢 Página 2: El Laberinto Activo (Estado 1)
+* **Concepto:** Navegación guiada por el usuario para trasladar a la entidad a través de un mapa geométrico[cite: 1].
+* **Interacción:** Control directo por hardware. El movimiento responde exclusivamente a las pulsaciones físicas del usuario[cite: 1]. Bloque instructivo protegido visualmente por base traslúcida.
+* **Comandos Clave:** `background()`, `fill()` con canal Alfa (opacidad), `rect()`, `keyPressed()`, `keyCode`, `LEFT_ARROW`, `RIGHT_ARROW`, `UP_ARROW`, `DOWN_ARROW`[cite: 1].
+
+### 🟢 Página 3: Transición Óptica de Piglet (Estado 2)
+* **Concepto:** Intermedio cinético que deforma la ilustración del personaje en el árbol basándose en la posición del cursor[cite: 1].
+* **Interacción:** Desfase analógico. El sistema mide las coordenadas del mouse para generar un efecto de "glitch cromático" por superposición[cite: 1].
+* **Comandos Clave:** `background()`, `mouseX`, `mouseY`, `tint()`, `blendMode(ADD)`, `noTint()`[cite: 1].
+
+### 🟢 Página 4: Grilla Matemática de Pooh (Estado 3)
+* **Concepto:** Cuadrícula masiva de pupilas interactivas que siguen de forma orgánica la presencia del espectador[cite: 1].
+* **Interacción:** Orientación trigonométrica vectorial y escalamiento dinámico por cercanía al cursor[cite: 1].
+* **Comandos Clave:** Loops `for` anidados, `background()`, `atan2()`, `dist()`, `map()`, `cos()`, `sin()`[cite: 1].
+
+---
+
+## 🖱️ El Vínculo de Control: `mousePressed()`
+La transición secuencial que permite avanzar a través de estas páginas con movimientos independientes está completamente supeditada a la voluntad del espectador[cite: 1]. Mediante la función `mousePressed()`, el sistema evalúa la intención del usuario para cambiar de un estado a otro, demostrando que **el software requiere de la acción humana para completarse y cobrar sentido.**[cite: 1]
