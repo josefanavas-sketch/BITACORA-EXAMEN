@@ -1,3 +1,12 @@
+# Bitácora Examen: Proyecto de Interacción
+**Estudiante:** Josefa Navas  
+**Asignatura:** Pensamiento Computacional - Entrega de Examen  
+**Nombre del Proyecto:** Interactividad Animada  
+**Fecha de Entrega:** 26 Junio, 2026
+
+
+
+
 ## Fundamento de Diseño y Concepto de Interacción
 
 La propuesta estética y el lenguaje visual de este proyecto están directamente inspirados en el universo de la serie animada **Winnie de Pooh**. Bajo la premisa de evocar una atmósfera infantil, lúdica y nostálgica, el software se articula como un entorno dinámico enfocado en la **interactividad obligatoria entre el usuario y el programa**
