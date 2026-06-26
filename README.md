@@ -79,7 +79,7 @@ La transición secuencial que permite avanzar a través de estas páginas con mo
 
 ---
 
-![Diagrama de Flujo](DiagramaFlujo.pdf)
+![Diagrama de Flujo](DiagramaFlujo.jpg)
 
 ### Codificación Visual (Formas y Colores):
 Con el objetivo de facilitar la lectura técnica del mapa de navegación, el diagrama implementa una **lectura de abstracción geométrica y cromática** que clasifica cada instrucción del sistema:
