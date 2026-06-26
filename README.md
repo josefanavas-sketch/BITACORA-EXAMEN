@@ -19,7 +19,7 @@ Asimismo, bajo criterios de diseño de interfaz, **en las páginas 1 y 2 se inco
 
 ---
 
-## 🖼️ Imágenes Utilizadas en el Desarrollo del Programa
+##  Imágenes Utilizadas en el Desarrollo del Programa
 
 ### Escenografía y Referentes Visuales:
 * **Fondo del Bosque (Estado 0):**
