@@ -69,7 +69,7 @@ La imagen base utilizada para el entorno del laberinto fue co-creada con la herr
 ###  Página 4: Grilla Matemática de Pooh (Estado 3)
 * **Concepto:** Cuadrícula masiva de pupilas interactivas que siguen de forma orgánica el movimento del mouse.
 * **Interacción:** Orientación trigonométrica vectorial y escalamiento dinámico por cercanía al cursor.
-* **Comandos Clave:** Loops `for`, `background()`, `atan2()`, `dist()`, `map()`, `cos()`, `sin()`.
+* **Comandos Clave:** Loops `for`, `background()`, `atan2()`, `dist()`, `map()`, `cos()`, `sin()`, `ellipse()`
 
 ---
 
