@@ -52,26 +52,26 @@ La imagen base utilizada para el entorno del laberinto fue co-creada con la herr
 ##  Estructura de Páginas y Comandos Principales
 
 ###  Página 1: Pantalla de Bienvenida (Estado 0)
-* **Concepto:** Introducción al entorno lúdico del bosque con el vuelo autónomo de una abeja].
-* **Interacción:** Movimiento azaroso automatizado que simula vida independiente mediante un freno de fotogramas[cite: 1]. Legibilidad optimizada mediante caja contenedora semitransparente.
-* **Comandos Clave:** `background()`, `fill()` con canal Alfa (opacidad), `rect()`, `random()`, `frameCount`, `text()`[cite: 1].
+* **Concepto:** Introducción al entorno lúdico del bosque con el vuelo autónomo de una abeja.
+* **Interacción:** Movimiento azaroso automatizado que simula vida independiente. Legibilidad optimizada mediante caja contenedora semitransparente.
+* **Comandos Clave:** `background()`, `fill()`, `rect()`, `random()`, `text()`.
 
 ###  Página 2: El Laberinto Activo (Estado 1)
 * **Concepto:** Navegación guiada por el usuario para trasladar a la entidad a través de un mapa geométrico.
-* **Interacción:** Control directo por hardware. El movimiento responde exclusivamente a las pulsaciones físicas del usuario[cite: 1]. Bloque instructivo protegido visualmente por base traslúcida.
-* **Comandos Clave:** `background()`, `fill()` con canal Alfa (opacidad), `rect()`, `keyPressed()`, `keyCode`, `LEFT_ARROW`, `RIGHT_ARROW`, `UP_ARROW`, `DOWN_ARROW`.
+* **Interacción:** Control directo por hardware. El movimiento responde exclusivamente a las pulsaciones físicas del usuario. Bloque instructivo protegido visualmente por base traslúcida.
+* **Comandos Clave:** `background()`, `fill()`, `rect()`, `keyPressed()`, `keyCode`, `LEFT_ARROW`, `RIGHT_ARROW`, `UP_ARROW`, `DOWN_ARROW`.
 
 ###  Página 3: Transición Óptica de Piglet (Estado 2)
-* **Concepto:** Intermedio cinético que deforma la ilustración del personaje en el árbol basándose en la posición del cursor.
+* **Concepto:** Intermedio que deforma la ilustración del personaje en el árbol basándose en la posición del cursor.
 * **Interacción:** Desfase analógico. El sistema mide las coordenadas del mouse para generar un efecto de "glitch cromático" por superposición.
 * **Comandos Clave:** `background()`, `mouseX`, `mouseY`, `tint()`, `blendMode(ADD)`, `noTint()`.
 
 ###  Página 4: Grilla Matemática de Pooh (Estado 3)
-* **Concepto:** Cuadrícula masiva de pupilas interactivas que siguen de forma orgánica la presencia del espectador.
+* **Concepto:** Cuadrícula masiva de pupilas interactivas que siguen de forma orgánica el movimento del mouse.
 * **Interacción:** Orientación trigonométrica vectorial y escalamiento dinámico por cercanía al cursor.
-* **Comandos Clave:** Loops `for` anidados, `background()`, `atan2()`, `dist()`, `map()`, `cos()`, `sin()`.
+* **Comandos Clave:** Loops `for`, `background()`, `atan2()`, `dist()`, `map()`, `cos()`, `sin()`.
 
 ---
 
-## 🖱️ El Vínculo de Control: `mousePressed()`
+##  El Vínculo de Control: `mousePressed()`
 La transición secuencial que permite avanzar a través de estas páginas con movimientos independientes está completamente supeditada a la voluntad del espectador. Mediante la función `mousePressed()`, el sistema evalúa la intención del usuario para cambiar de un estado a otro, demostrando que **el software requiere de la acción humana para completarse y cobrar sentido.**.
