@@ -79,6 +79,8 @@ La transición secuencial que permite avanzar a través de estas páginas con mo
 
 ---
 
+## Diagrama de Flujo 
+
 ![Diagrama de Flujo](DiagramaFlujo.jpg)
 
 ### Codificación Visual (Formas y Colores):
