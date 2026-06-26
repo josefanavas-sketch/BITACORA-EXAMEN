@@ -30,7 +30,7 @@ La imagen base utilizada para el entorno del laberinto fue co-creada con la herr
 ![Mapa del Laberinto Activo](imagen.2.png)[generado con Gemini]
 
 
-* 
+  
 ![Referencia 1 para Gemini](imagen.5.jpg)
 ![Referencia 2 para Gemini](imagen.6.png)
 
