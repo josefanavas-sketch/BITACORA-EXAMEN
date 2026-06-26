@@ -44,6 +44,7 @@ La imagen base utilizada para el entorno del laberinto fue co-creada con la herr
 
 * **Fondo de Winnie de Pooh (Estado 3):**
 ![Grilla Interactiva - Pooh](imagen.4.png)
+
 [imagen descargada de Pinterest]
 
 ---
