@@ -37,6 +37,7 @@ La imagen base utilizada para el entorno del laberinto fue co-creada con la herr
 
 
 * **Ilustración de Piglet (Estado 2):**
+  
 ![Transición Óptica - Piglet](imagen.3.jpg)
 [imagen de la serie animada]
 
